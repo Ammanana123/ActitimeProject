@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://demo.actitime.com/login.do"/>
+  <test name="Test">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demo.actitime.com/login.do"/>
+    <classes>
+      <class name="com.krn.Actitime.tasks.ParallelTestingTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demo.actitime.com/login.do"/>
+    <classes>
+      <class name="com.krn.Actitime.tasks.ParallelTestingTest">
+        <methods>
+          <include name="Login"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.krn.Actitime.tasks.ParallelTestingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

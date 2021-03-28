@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Actitime]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.Actitime.Utility.ExtentReportManager"/>
+  </listeners>
+  <test name="chrometest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Actitime.testCases.TC_CreateTask_003"/>
+      <class name="com.Actitime.testCases.TC_DataTest_002"/>
+      <class name="com.Actitime.testCases.TC_LoginTest_001"/>
+    </classes>
+  </test> <!-- chrometest -->
+</suite> <!-- Failed suite [Actitime] -->

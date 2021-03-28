@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Actitime" duration-ms="150452" started-at="2021-03-28T02:43:10Z" finished-at="2021-03-28T02:45:41Z">
+    <groups>
+    </groups>
+    <test name="chrometest" duration-ms="150452" started-at="2021-03-28T02:43:10Z" finished-at="2021-03-28T02:45:41Z">
+      <class name="com.Actitime.testCases.TC_CreateTask_003">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Actitime.testCases.TC_CreateTask_003@1d296da]" name="setup" is-config="true" duration-ms="10432" started-at="2021-03-27T22:43:11Z" finished-at="2021-03-27T22:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createTask()[pri:1, instance:com.Actitime.testCases.TC_CreateTask_003@1d296da]" name="createTask" duration-ms="14456" started-at="2021-03-27T22:43:22Z" finished-at="2021-03-27T22:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method status="PASS" signature="getText()[pri:2, instance:com.Actitime.testCases.TC_CreateTask_003@1d296da]" name="getText" duration-ms="28883" started-at="2021-03-27T22:43:36Z" finished-at="2021-03-27T22:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Actitime.testCases.TC_CreateTask_003@1d296da]" name="closeBrowser" is-config="true" duration-ms="2876" started-at="2021-03-27T22:44:05Z" finished-at="2021-03-27T22:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Actitime.testCases.TC_CreateTask_003 -->
+      <class name="com.Actitime.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Actitime.testCases.TC_LoginTest_001@75d4a5c2]" name="setup" is-config="true" duration-ms="4109" started-at="2021-03-27T22:45:14Z" finished-at="2021-03-27T22:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.Actitime.testCases.TC_LoginTest_001@75d4a5c2]" name="testLogin" duration-ms="8140" started-at="2021-03-27T22:45:18Z" finished-at="2021-03-27T22:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getText()[pri:2, instance:com.Actitime.testCases.TC_LoginTest_001@75d4a5c2]" name="getText" duration-ms="8924" started-at="2021-03-27T22:45:26Z" finished-at="2021-03-27T22:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getText -->
+        <test-method status="PASS" signature="logout()[pri:3, instance:com.Actitime.testCases.TC_LoginTest_001@75d4a5c2]" name="logout" duration-ms="3862" started-at="2021-03-27T22:45:35Z" finished-at="2021-03-27T22:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Actitime.testCases.TC_LoginTest_001@75d4a5c2]" name="closeBrowser" is-config="true" duration-ms="1551" started-at="2021-03-27T22:45:39Z" finished-at="2021-03-27T22:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Actitime.testCases.TC_LoginTest_001 -->
+      <class name="com.Actitime.testCases.TC_DataTest_002">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="setup" is-config="true" duration-ms="4943" started-at="2021-03-27T22:44:08Z" finished-at="2021-03-27T22:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getCellData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="getCellData" duration-ms="12801" started-at="2021-03-27T22:44:21Z" data-provider="Logindata" finished-at="2021-03-27T22:44:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[laxminarayana]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCellData -->
+        <test-method status="PASS" signature="getCellData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="getCellData" duration-ms="9855" started-at="2021-03-27T22:44:34Z" data-provider="Logindata" finished-at="2021-03-27T22:44:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shiva@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gowrishankar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCellData -->
+        <test-method status="PASS" signature="getCellData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="getCellData" duration-ms="5993" started-at="2021-03-27T22:44:44Z" data-provider="Logindata" finished-at="2021-03-27T22:44:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[brahma@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[brahmasaraswathi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCellData -->
+        <test-method status="PASS" signature="getCellData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="getCellData" duration-ms="6461" started-at="2021-03-27T22:44:50Z" data-provider="Logindata" finished-at="2021-03-27T22:44:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ganapathi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[buddisiddivinayaka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCellData -->
+        <test-method status="PASS" signature="getCellData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="getCellData" duration-ms="6171" started-at="2021-03-27T22:44:56Z" data-provider="Logindata" finished-at="2021-03-27T22:45:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subramanya@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vallidevasenasubramanya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCellData -->
+        <test-method status="PASS" signature="getCellData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="getCellData" duration-ms="5725" started-at="2021-03-27T22:45:03Z" data-provider="Logindata" finished-at="2021-03-27T22:45:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCellData -->
+        <test-method status="PASS" signature="getText()[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="getText" duration-ms="3144" started-at="2021-03-27T22:45:08Z" finished-at="2021-03-27T22:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getText -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="logout" duration-ms="2001" started-at="2021-03-27T22:45:12Z" finished-at="2021-03-27T22:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Actitime.testCases.TC_DataTest_002@7c7a06ec]" name="closeBrowser" is-config="true" duration-ms="501" started-at="2021-03-27T22:45:14Z" finished-at="2021-03-27T22:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Actitime.testCases.TC_DataTest_002 -->
+    </test> <!-- chrometest -->
+  </suite> <!-- Actitime -->
+</testng-results>

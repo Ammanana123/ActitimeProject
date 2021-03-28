@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Actitime">
+              <span class="suite-name border-passed">Actitime</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Actitime">
+                    <span>C:\Users\Thinkpad T420s\OneDrive\Documents\Project\Actitime\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Actitime">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Actitime">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Actitime">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Actitime">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Actitime">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Actitime">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Actitime" class="hide-methods passed suite-Actitime"> (hide)</a> <!-- hide-methods passed suite-Actitime -->
+                      <a href="#" panel-name="suite-Actitime" class="show-methods passed suite-Actitime"> (show)</a> <!-- show-methods passed suite-Actitime -->
+                    </span>
+                    <div class="method-list-content passed suite-Actitime">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_CreateTask_003" hash-for-method="createTask">createTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_DataTest_002" hash-for-method="getCellData(hari@gmail.com, laxminarayana, fail)">getCellData(hari@gmail.com, laxminarayana, fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_DataTest_002" hash-for-method="getCellData(brahma@gmail.com, brahmasaraswathi, fail)">getCellData(brahma@gmail.com, brahmasaraswathi, fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_DataTest_002" hash-for-method="getCellData(admin, manager, pass)">getCellData(admin, manager, pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_DataTest_002" hash-for-method="getCellData(ganapathi@gmail.com, buddisiddivinayaka, fail)">getCellData(ganapathi@gmail.com, buddisiddivinayaka, fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_DataTest_002" hash-for-method="getCellData(shiva@gmail.com, gowrishankar, fail)">getCellData(shiva@gmail.com, gowrishankar, fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_DataTest_002" hash-for-method="getCellData(subramanya@gmail.com, vallidevasenasubramanya, fail)">getCellData(subramanya@gmail.com, vallidevasenasubramanya, fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_LoginTest_001" hash-for-method="getText">getText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_CreateTask_003" hash-for-method="getText">getText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_DataTest_002" hash-for-method="getText">getText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_DataTest_002" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_LoginTest_001" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Actitime" title="com.Actitime.testCases.TC_LoginTest_001" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Actitime -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Actitime" class="panel Actitime">
+          <div class="suite-Actitime-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Actitime.testCases.TC_DataTest_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCellData(hari@gmail.com, laxminarayana, fail)">
+                  </a> <!-- getCellData(hari@gmail.com, laxminarayana, fail) -->
+                  <span class="method-name">getCellData</span>
+                  <span class="parameters">(hari@gmail.com, laxminarayana, fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCellData(brahma@gmail.com, brahmasaraswathi, fail)">
+                  </a> <!-- getCellData(brahma@gmail.com, brahmasaraswathi, fail) -->
+                  <span class="method-name">getCellData</span>
+                  <span class="parameters">(brahma@gmail.com, brahmasaraswathi, fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCellData(admin, manager, pass)">
+                  </a> <!-- getCellData(admin, manager, pass) -->
+                  <span class="method-name">getCellData</span>
+                  <span class="parameters">(admin, manager, pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCellData(ganapathi@gmail.com, buddisiddivinayaka, fail)">
+                  </a> <!-- getCellData(ganapathi@gmail.com, buddisiddivinayaka, fail) -->
+                  <span class="method-name">getCellData</span>
+                  <span class="parameters">(ganapathi@gmail.com, buddisiddivinayaka, fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCellData(shiva@gmail.com, gowrishankar, fail)">
+                  </a> <!-- getCellData(shiva@gmail.com, gowrishankar, fail) -->
+                  <span class="method-name">getCellData</span>
+                  <span class="parameters">(shiva@gmail.com, gowrishankar, fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCellData(subramanya@gmail.com, vallidevasenasubramanya, fail)">
+                  </a> <!-- getCellData(subramanya@gmail.com, vallidevasenasubramanya, fail) -->
+                  <span class="method-name">getCellData</span>
+                  <span class="parameters">(subramanya@gmail.com, vallidevasenasubramanya, fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getText">
+                  </a> <!-- getText -->
+                  <span class="method-name">getText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Actitime-class-passed -->
+          <div class="suite-Actitime-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Actitime.testCases.TC_LoginTest_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getText">
+                  </a> <!-- getText -->
+                  <span class="method-name">getText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Actitime-class-passed -->
+          <div class="suite-Actitime-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Actitime.testCases.TC_CreateTask_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createTask">
+                  </a> <!-- createTask -->
+                  <span class="method-name">createTask</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getText">
+                  </a> <!-- getText -->
+                  <span class="method-name">getText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Actitime-class-passed -->
+        </div> <!-- panel Actitime -->
+        <div panel-name="test-xml-Actitime" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Thinkpad T420s\OneDrive\Documents\Project\Actitime\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Actitime&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.Actitime.Utility.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;chrometest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Actitime.testCases.TC_CreateTask_003&quot;/&gt;
+      &lt;class name=&quot;com.Actitime.testCases.TC_DataTest_002&quot;/&gt;
+      &lt;class name=&quot;com.Actitime.testCases.TC_LoginTest_001&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrometest --&gt;
+&lt;/suite&gt; &lt;!-- Actitime --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Actitime" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Actitime</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chrometest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Actitime" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Actitime</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Actitime" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Actitime</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Actitime');
+function tableData_Actitime() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getText')
+data.setCell(0, 2, 'com.Actitime.testCases.TC_CreateTask_003')
+data.setCell(0, 3, 28883);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createTask')
+data.setCell(1, 2, 'com.Actitime.testCases.TC_CreateTask_003')
+data.setCell(1, 3, 14456);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getCellData')
+data.setCell(2, 2, 'com.Actitime.testCases.TC_DataTest_002')
+data.setCell(2, 3, 12801);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getCellData')
+data.setCell(3, 2, 'com.Actitime.testCases.TC_DataTest_002')
+data.setCell(3, 3, 9855);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getText')
+data.setCell(4, 2, 'com.Actitime.testCases.TC_LoginTest_001')
+data.setCell(4, 3, 8924);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLogin')
+data.setCell(5, 2, 'com.Actitime.testCases.TC_LoginTest_001')
+data.setCell(5, 3, 8140);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getCellData')
+data.setCell(6, 2, 'com.Actitime.testCases.TC_DataTest_002')
+data.setCell(6, 3, 6461);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getCellData')
+data.setCell(7, 2, 'com.Actitime.testCases.TC_DataTest_002')
+data.setCell(7, 3, 6171);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getCellData')
+data.setCell(8, 2, 'com.Actitime.testCases.TC_DataTest_002')
+data.setCell(8, 3, 5993);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getCellData')
+data.setCell(9, 2, 'com.Actitime.testCases.TC_DataTest_002')
+data.setCell(9, 3, 5725);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'logout')
+data.setCell(10, 2, 'com.Actitime.testCases.TC_LoginTest_001')
+data.setCell(10, 3, 3862);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getText')
+data.setCell(11, 2, 'com.Actitime.testCases.TC_DataTest_002')
+data.setCell(11, 3, 3144);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'logout')
+data.setCell(12, 2, 'com.Actitime.testCases.TC_DataTest_002')
+data.setCell(12, 3, 2001);
+window.suiteTableData['Actitime']= { tableData: data, tableDiv: 'times-div-Actitime'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Actitime">
+              </div> <!-- times-div-Actitime -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Actitime" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Actitime</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Actitime" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Actitime" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Actitime.testCases.TC_CreateTask_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createTask</span>
+                <span class="method-start">10453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getText</span>
+                <span class="method-start">25000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">53890 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Actitime.testCases.TC_DataTest_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">56767 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getCellData(hari@gmail.com, laxminarayana, fail)</span>
+                <span class="method-start">70135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCellData(shiva@gmail.com, gowrishankar, fail)</span>
+                <span class="method-start">82942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCellData(brahma@gmail.com, brahmasaraswathi, fail)</span>
+                <span class="method-start">92799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCellData(ganapathi@gmail.com, buddisiddivinayaka, fail)</span>
+                <span class="method-start">98794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCellData(subramanya@gmail.com, vallidevasenasubramanya, fail)</span>
+                <span class="method-start">105258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCellData(admin, manager, pass)</span>
+                <span class="method-start">111431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getText</span>
+                <span class="method-start">117162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">120310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">122316 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Actitime.testCases.TC_LoginTest_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">122818 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin</span>
+                <span class="method-start">126928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getText</span>
+                <span class="method-start">135072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">144000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">147865 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
